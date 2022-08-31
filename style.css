@@ -9,7 +9,7 @@ body{
   padding-bottom: 3em;
   min-height: 100vh;
 }
-
+/* Barra de navegacion */
 .navbar{
   padding: 0.1rem;
 }
@@ -33,6 +33,7 @@ body{
     width: 60px;
 }
 
+/* Footer */
 .footer{
     display: flex;
     padding: 1%;
@@ -128,6 +129,8 @@ body{
       width: 100%;
       padding: 1.5%;
   }
+
+  /* Video Index */
   video{
     width: 45vw;
     height: 45vw;
@@ -147,6 +150,7 @@ body{
     font-size: 17px;
   }
 
+/*-------------------------*/
   .section{
     width: 45vw;
     margin: 0 auto;
@@ -210,6 +214,8 @@ body{
     justify-content: space-around;
     padding: 12px;
   }
+
+  /* Proyectos*/
 
   .fotoPerfil{
     display: flex;
@@ -277,7 +283,7 @@ body{
     width: 25px;
   }
 
-
+/* Responsive Tipo Mobile first*/
   @media (min-width: 425px) {
 
 
