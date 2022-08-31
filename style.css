@@ -5,10 +5,18 @@
 
 body{
   background-color: #aaa9a8;
+  position: relative;
+  padding-bottom: 3em;
+  min-height: 100vh;
 }
 
 .navbar{
   padding: 0.1rem;
+}
+
+.link{
+  color: #000000;
+  font-weight: bold;
 }
 
 .color-nav{
@@ -29,8 +37,10 @@ body{
     background-color: rgb(139, 139, 139);
     font-weight: bold;
     font-size:60%;
-    width: 150%;
-    height: 60px;
+    position:absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 8vw;
     color: aliceblue;
     cursor: pointer;
 	  text-transform: uppercase;
@@ -119,6 +129,9 @@ body{
   video{
     width: 45vw;
     height: 45vw;
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
   }
 
 
@@ -136,16 +149,31 @@ body{
   }
  
   .d-block{
-    height: 45vw;
+    height: 90vw;
+    width: 100vw;
 
   }
 
-  .container{
+  .btn-L{
+    color: #020202;
+    background-color: #f7a151;
+    width: 35vw;
+    font-weight: bold;
+  }
+ 
+  .btn-B{
+    background-color:#000000;
+    color: antiquewhite;
+  }
+
+  .containerI{
     background-image: url("./img/img-13.jpg");
     background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 95vw;
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
+    padding: 50px;
   }
 
   .container1{
@@ -201,6 +229,12 @@ body{
 
   .card-body{
     background-color: #b49872;
+    text-align: center;
+  }
+
+  .card-title{
+    font-weight: bold;
+    font-size: 25px; 
   }
 
   .card2{
@@ -209,7 +243,7 @@ body{
 
   .ordenLogos{
     display: flex;
-    width: 50vw;
+    width: 100vw;
     font-size: medium;
     flex-direction: row-reverse;
   }
@@ -219,11 +253,22 @@ body{
   }
 
   @media (min-width: 425px) {
-    video{
-      width: 42vw;
-    }
+
 
     .formul-1{
       width: 40vw;
+    }
+
+    .footer{
+      height: 4vw;
+    }
+
+    .d-block{
+      height: 42vw;
+      width: 58vw;
+    }
+
+    .btn-L{
+      width: 22vw;
     }
   }
