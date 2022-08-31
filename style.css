@@ -251,11 +251,12 @@ body{
   }
 
   .card2:hover{
-    border-radius:120px;
-    background-color: #d66464;
-    -webkit-border-radius:120px;
-    box-shadow: 0px 0px 15px 30px #ec731e;
-    -webkit-box-shadow: 0px 0px 15px 30px #ec731e;
+    border-radius:15%;
+    background-color: #474747a2;
+    color: antiquewhite;
+    -webkit-border-radius:20px;
+    box-shadow: 0px 0px 20px 30px #3d3d3d;
+    -webkit-box-shadow: 0px 0px 20px 30px #413f3f;
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     cursor: pointer;
