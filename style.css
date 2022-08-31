@@ -65,10 +65,10 @@ body{
   .formul-1{
       color:antiquewhite;
       padding: 3%;
-      width: 35vw;
-      height: 3px;
+      width: 75vw;
+      height: 50vw;
       text-align: center;
-      font-size: 20px;
+      font-size: 18px;
       color:#fffdfd; 
       background-color: #6B7280;height: max-content; border-radius: 10px; opacity: 0.8;
       display: flex;
@@ -99,6 +99,7 @@ body{
   
     h2{
       color: antiquewhite;
+      text-align: center;
     }
    
     .btn-enviar button:hover{
@@ -115,8 +116,12 @@ body{
       width: 100%;
       padding: 1.5%;
   }
+  video{
+    width: 45vw;
+    height: 45vw;
+  }
 
- 
+
   /*carusel*/ 
   .carusel-padre{
     width: 60vw;
@@ -135,8 +140,22 @@ body{
 
   }
 
-  .mein{
+  .container{
     background-image: url("./img/img-13.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95vw;
+  }
+
+  .container1{
+    margin: 5px;
+  }
+  
+
+  .row{
+    width: 93vw;
+    height: 0 auto;
   }
 
   .color-letra-proyecto{
@@ -156,6 +175,7 @@ body{
   .card1{
     display: flex;
     justify-content: space-around;
+    padding: 12px;
   }
 
   .fotoPerfil{
@@ -168,12 +188,14 @@ body{
   .QS-1{
     display: flex;
     margin: 0 auto;
+    padding: 10px;
     justify-content: space-around
   }
 
   .QS-2{
     display: flex;
     margin: 0 auto;
+    padding: 10px;
     justify-content: space-around
   }
 
@@ -194,4 +216,14 @@ body{
 
   .logos{
     width: 25px;
+  }
+
+  @media (min-width: 425px) {
+    video{
+      width: 42vw;
+    }
+
+    .formul-1{
+      width: 40vw;
+    }
   }
