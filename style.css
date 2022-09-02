@@ -143,12 +143,35 @@ body{
 
   /*carusel*/ 
   .carusel-padre{
-    width: 60vw;
+    width: 58vw;
     margin: 0 auto;
   }
 
   .carousel-item, p{
     font-size: 17px;
+  }
+
+
+  .color-letra-proyecto{
+    color: #000000;
+    font-weight: bold
+  }
+
+  .color-letra-proyecto h5{
+    font-size: 55px;
+    margin: 0 auto;
+    height: 18vw;
+    font-weight: bold;
+  }
+
+  .color-letra-proyecto p{
+    font-size: 25px;
+    margin: 0 auto;
+    font-weight: bold;
+  }
+
+  .boton-carusel{
+    color: #000000;
   }
 
 /*-------------------------*/
@@ -196,19 +219,7 @@ body{
     height: 0 auto;
   }
 
-  .color-letra-proyecto{
-    color: #000000;
-    font-weight: bold
-  }
 
-  .color-letra-proyecto h5{
-    font-size: 50px;
-    margin: 0 auto;
-  }
-
-  .boton-carusel{
-    color: #000000;
-  }
 
   .card1{
     display: flex;
