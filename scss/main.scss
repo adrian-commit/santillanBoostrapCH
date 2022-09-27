@@ -75,7 +75,8 @@ body{
       background-image: linear-gradient(#f7a151,#917045);
       
     }
-  
+
+
   .formInt{
       width: 100%;
       padding: 1%;
@@ -106,21 +107,24 @@ body{
     font-size: 17px;
   }
 
+/*USO DE EXTEND*/
 
   .color-letra-proyecto{
     color: #000000;
-    font-weight: bold
+    font-weight: bold;
+    height: 100px
   }
 
-  .color-letra-proyecto h5{
-    font-size: 55px;
-    margin: 0 auto;
-    height: 18vw;
+   h5{
+    @extend .color-letra-proyecto;
+    font-size: 50px;
     font-weight: bold;
   }
+  
 
-  .color-letra-proyecto p{
-    font-size: 25px;
+  p{
+    @extend .color-letra-proyecto;
+    font-size: 40px;
     margin: 0 auto;
     font-weight: bold;
   }
@@ -141,13 +145,12 @@ body{
 
   }
 
-  .btn-L{
+  .btn-L {
     color: #020202;
     background-color: #f7a151;
-    width: 35vw;
     font-weight: bold;
   }
- 
+
   .btn-B{
     background-color:#000000;
     color: antiquewhite;
@@ -186,9 +189,13 @@ body{
 
   .fotoPerfil{
     display: flex;
-    width: 200px;
+    width: 100px;
     height: 160px;
     margin: 0 auto;
+    img{
+      width: 200px;
+      height: 200px;
+    }
   }
 
   .QS-1{
@@ -212,11 +219,14 @@ body{
 
   .card-title{
     font-weight: bold;
-    font-size: 23px; 
+    font-size: 23px;
+    height: 40px; 
   }
 
   .card-text{
-    font-size: 15px; 
+    font-size: 10px;
+    height: 100px;
+    padding: 15px; 
   }
 
   .card2{
@@ -257,5 +267,10 @@ body{
 
     .btn-L{
       width: 22vw;
+    }
+
+    .card-text{
+      font-size: 12px;
+      height: 100px; 
     }
   }

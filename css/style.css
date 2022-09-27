@@ -90,18 +90,18 @@ video {
 .carousel-item, p {
   font-size: 17px; }
 
-.color-letra-proyecto {
+/*USO DE EXTEND*/
+.color-letra-proyecto, h5, p {
   color: #000000;
+  font-weight: bold;
+  height: 100px; }
+
+h5 {
+  font-size: 50px;
   font-weight: bold; }
 
-.color-letra-proyecto h5 {
-  font-size: 55px;
-  margin: 0 auto;
-  height: 18vw;
-  font-weight: bold; }
-
-.color-letra-proyecto p {
-  font-size: 25px;
+p {
+  font-size: 40px;
   margin: 0 auto;
   font-weight: bold; }
 
@@ -120,7 +120,6 @@ video {
 .btn-L {
   color: #020202;
   background-color: #f7a151;
-  width: 35vw;
   font-weight: bold; }
 
 .btn-B {
@@ -153,9 +152,12 @@ video {
 /* Proyectos*/
 .fotoPerfil {
   display: flex;
-  width: 200px;
+  width: 100px;
   height: 160px;
   margin: 0 auto; }
+  .fotoPerfil img {
+    width: 200px;
+    height: 200px; }
 
 .QS-1 {
   display: flex;
@@ -175,10 +177,13 @@ video {
 
 .card-title {
   font-weight: bold;
-  font-size: 23px; }
+  font-size: 23px;
+  height: 40px; }
 
 .card-text {
-  font-size: 15px; }
+  font-size: 10px;
+  height: 100px;
+  padding: 15px; }
 
 .card2 {
   background-color: #7d9ad3; }
@@ -251,4 +256,7 @@ video {
     height: 42vw;
     width: 58vw; }
   .btn-L {
-    width: 22vw; } }
+    width: 22vw; }
+  .card-text {
+    font-size: 12px;
+    height: 100px; } }
